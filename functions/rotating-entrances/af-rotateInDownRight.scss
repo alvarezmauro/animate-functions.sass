@@ -1,0 +1,47 @@
+@-webkit-keyframes af-rotateInDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes af-rotateInDownRight {
+  from {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+// SASS mixin
+@mixin af-rotateInDownRight($duration:$animateDefaultDuration, $delay:$animateDefaultDelay) {
+  @include af-base($duration, $delay);
+  -webkit-animation-name: af-rotateInDownRight;
+  animation-name: af-rotateInDownRight;
+};
+
+// CSS Class
+.af-rotateInDownRight{
+  @include af-rotateInDownRight();
+}

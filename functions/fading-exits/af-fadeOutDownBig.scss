@@ -1,0 +1,35 @@
+@-webkit-keyframes af-fadeOutDownBig {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+}
+
+@keyframes af-fadeOutDownBig {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+}
+
+// SASS mixin
+@mixin af-fadeOutDownBig($duration:$animateDefaultDuration, $delay:$animateDefaultDelay) {
+  @include af-base($duration, $delay);
+  -webkit-animation-name: af-fadeOutDownBig;
+  animation-name: af-fadeOutDownBig;
+};
+
+// CSS Class
+.af-fadeOutDownBig{
+  @include af-fadeOutDownBig();
+}

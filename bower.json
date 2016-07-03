@@ -1,0 +1,22 @@
+{
+  "name": "animate-functions.less",
+  "homepage": "http://alvarezmauro.github.io/animate-functions.less/",
+  "authors": [
+    "Mauro Alvarez <mauroalvarez86@gmail.com>"
+  ],
+  "description": "Collection of configurable CSS animations using LESS functions",
+  "main": "animate-functions.less",
+  "keywords": [
+    "CSS",
+    "LESS",
+    "Animations"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

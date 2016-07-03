@@ -1,0 +1,37 @@
+@-webkit-keyframes af-lightSpeedOut {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+@keyframes af-lightSpeedOut {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+// SASS mixin
+@mixin af-lightSpeedOut($duration:$animateDefaultDuration, $delay:$animateDefaultDelay, $timing-function:ease-in) {
+  @include af-base($duration, $delay);
+  -webkit-animation-name: af-lightSpeedOut;
+  animation-name: af-lightSpeedOut;
+  -webkit-animation-timing-function: $timing-function;
+  animation-timing-function: $timing-function;
+};
+
+// CSS Class
+.af-lightSpeedOut{
+  @include af-lightSpeedOut();
+}

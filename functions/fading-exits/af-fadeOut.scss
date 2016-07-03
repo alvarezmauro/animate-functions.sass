@@ -1,0 +1,31 @@
+@-webkit-keyframes af-fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes af-fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+// SASS mixin
+@mixin af-fadeOut($duration:$animateDefaultDuration, $delay:$animateDefaultDelay) {
+  @include af-base($duration, $delay);
+  -webkit-animation-name: af-fadeOut;
+  animation-name: af-fadeOut;
+};
+
+// CSS Class
+.af-fadeOut{
+  @include af-fadeOut();
+}

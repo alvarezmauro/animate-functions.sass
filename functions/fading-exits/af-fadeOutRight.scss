@@ -1,0 +1,35 @@
+@-webkit-keyframes af-fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes af-fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+// SASS mixin
+@mixin af-fadeOutRight($duration:$animateDefaultDuration, $delay:$animateDefaultDelay) {
+  @include af-base($duration, $delay);
+  -webkit-animation-name: af-fadeOutRight;
+  animation-name: af-fadeOutRight;
+};
+
+// CSS Class
+.af-fadeOutRight{
+  @include af-fadeOutRight();
+}
