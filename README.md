@@ -10,7 +10,7 @@ $ bower install animate-functions.sass --save
 ##Why is useful?
 #### Functions or Classes
 You can Include the animations as part of a new CSS rule-set or use them by adding classes to the markup:
-```sass
+```scss
 //Including animations as part of a CSS rule-set
 .page-home.ng-enter{
     @include af-slideInDown();
@@ -28,7 +28,7 @@ You can Include the animations as part of a new CSS rule-set or use them by addi
 
 #### Configurability
 You can easily define the duration and delay of each animation:
-```sass
+```scss
 .page-home.ng-enter{
 // The first parameter defines the duration and the second one the delay
     @include af-slideInDown(1s, 3s);
@@ -42,7 +42,7 @@ In case you want to modify the default values you just need to override them by 
 #### Modularization
 Each animation is defined in an individual SASS file (they are grouped in folders by family type). This allows you to include only the animations that you are going to use, for example:
 
-```sass
+```scss
 @import "yourSassFolder/animate-functions.sass/af-base";
 
 @import "yourSassFolder/animate-functions.sass/functions/attention-seekers/af-bounce";
@@ -54,7 +54,7 @@ It's very simple:
 * Define $animateDefaultDuration and $animateDefaultDelay if you want to override the default duration and delay values (Optional)
 * Include the animations that you want ex: functions/bouncing-exits/af-bounceOut.scss
 
-```sass
+```scss
 @import "yourSassFolder/animate-functions.sass/af-base";
 
 // Override Default Values
@@ -65,7 +65,7 @@ It's very simple:
 ```
 
 Done! Now you can Include the animations as part of a new CSS rule-set or use them by adding classes to the markup:
-```sass
+```scss
 //Including animations as part of a CSS rule-set
 .page-home.ng-enter{
     @include af-bounceOut();
