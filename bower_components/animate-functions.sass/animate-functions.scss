@@ -1,0 +1,136 @@
+@import "af-base";
+
+// Override Default Values
+$animateDefaultDuration: 1s;
+$animateDefaultDelay: 0;
+
+//----------------------------------------------------------------------------------------------------------------------
+// Attention Seekers
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/attention-seekers/af-bounce";
+@import "functions/attention-seekers/af-flash";
+@import "functions/attention-seekers/af-jello";
+@import "functions/attention-seekers/af-pulse";
+@import "functions/attention-seekers/af-rubberBand";
+@import "functions/attention-seekers/af-shake";
+@import "functions/attention-seekers/af-swing";
+@import "functions/attention-seekers/af-tada";
+@import "functions/attention-seekers/af-wobble";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Bouncing Entrances
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/bouncing-entrances/af-bounceIn";
+@import "functions/bouncing-entrances/af-bounceInDown";
+@import "functions/bouncing-entrances/af-bounceInLeft";
+@import "functions/bouncing-entrances/af-bounceInRight";
+@import "functions/bouncing-entrances/af-bounceInUp";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Bouncing Exits
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/bouncing-exits/af-bounceOut";
+@import "functions/bouncing-exits/af-bounceOutDown";
+@import "functions/bouncing-exits/af-bounceOutLeft";
+@import "functions/bouncing-exits/af-bounceOutRight";
+@import "functions/bouncing-exits/af-bounceOutUp";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Fading Entrances
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/fading-entrances/af-fadeIn";
+@import "functions/fading-entrances/af-fadeInDown";
+@import "functions/fading-entrances/af-fadeInDownBig";
+@import "functions/fading-entrances/af-fadeInLeft";
+@import "functions/fading-entrances/af-fadeInLeftBig";
+@import "functions/fading-entrances/af-fadeInRight";
+@import "functions/fading-entrances/af-fadeInRightBig";
+@import "functions/fading-entrances/af-fadeInUp";
+@import "functions/fading-entrances/af-fadeInUpBig";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Fading Exits
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/fading-exits/af-fadeOut";
+@import "functions/fading-exits/af-fadeOutDown";
+@import "functions/fading-exits/af-fadeOutDownBig";
+@import "functions/fading-exits/af-fadeOutLeft";
+@import "functions/fading-exits/af-fadeOutLeftBig";
+@import "functions/fading-exits/af-fadeOutRight";
+@import "functions/fading-exits/af-fadeOutRightBig";
+@import "functions/fading-exits/af-fadeOutUp";
+@import "functions/fading-exits/af-fadeOutUpBig";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Flippers
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/flippers/af-flip";
+@import "functions/flippers/af-flipInX";
+@import "functions/flippers/af-flipInY";
+@import "functions/flippers/af-flipOutX";
+@import "functions/flippers/af-flipOutY";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Lightspeed
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/lightspeed/af-lightSpeedIn";
+@import "functions/lightspeed/af-lightSpeedOut";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Rotating Entrances
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/rotating-entrances/af-rotateIn";
+@import "functions/rotating-entrances/af-rotateInDownLeft";
+@import "functions/rotating-entrances/af-rotateInDownRight";
+@import "functions/rotating-entrances/af-rotateInUpLeft";
+@import "functions/rotating-entrances/af-rotateInUpRight";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Rotating Exits
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/rotating-exits/af-rotateOut";
+@import "functions/rotating-exits/af-rotateOutDownLeft";
+@import "functions/rotating-exits/af-rotateOutDownRight";
+@import "functions/rotating-exits/af-rotateOutUpLeft";
+@import "functions/rotating-exits/af-rotateOutUpRight";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Specials
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/specials/af-hinge";
+@import "functions/specials/af-rollIn";
+@import "functions/specials/af-rollOut";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Zoom Entrances
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/zoom-entrances/af-zoomIn";
+@import "functions/zoom-entrances/af-zoomInDown";
+@import "functions/zoom-entrances/af-zoomInLeft";
+@import "functions/zoom-entrances/af-zoomInRight";
+@import "functions/zoom-entrances/af-zoomInUp";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Zoom Exits
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/zoom-exits/af-zoomOut";
+@import "functions/zoom-exits/af-zoomOutDown";
+@import "functions/zoom-exits/af-zoomOutLeft";
+@import "functions/zoom-exits/af-zoomOutRight";
+@import "functions/zoom-exits/af-zoomOutUp";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Sliding Entrances
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/sliding-entrances/af-slideInDown";
+@import "functions/sliding-entrances/af-slideInDown";
+@import "functions/sliding-entrances/af-slideInLeft";
+@import "functions/sliding-entrances/af-slideInRight";
+
+//----------------------------------------------------------------------------------------------------------------------
+// Sliding Exits
+//----------------------------------------------------------------------------------------------------------------------
+@import "functions/sliding-exits/af-slideOutDown";
+@import "functions/sliding-exits/af-slideOutLeft";
+@import "functions/sliding-exits/af-slideOutRight";
+@import "functions/sliding-exits/af-slideOutUp";

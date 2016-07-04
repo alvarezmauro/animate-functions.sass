@@ -1,0 +1,35 @@
+@-webkit-keyframes af-zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes af-zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+// SASS mixin
+@mixin af-zoomIn($duration:$animateDefaultDuration, $delay:$animateDefaultDelay) {
+  @include af-base($duration, $delay);
+  -webkit-animation-name: af-zoomIn;
+  animation-name: af-zoomIn;
+};
+
+// CSS Class
+.af-zoomIn{
+  @include af-zoomIn();
+}

@@ -1,0 +1,65 @@
+@-webkit-keyframes af-lightSpeedIn {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes af-lightSpeedIn {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+// SASS mixin
+@mixin af-lightSpeedIn($duration:$animateDefaultDuration, $delay:$animateDefaultDelay, $timing-function:ease-out) {
+  @include af-base($duration, $delay);
+  -webkit-animation-name: af-lightSpeedIn;
+  animation-name: af-lightSpeedIn;
+  -webkit-animation-timing-function: $timing-function;
+  animation-timing-function: $timing-function;
+};
+
+// CSS Class
+.af-lightSpeedIn {
+  @include af-lightSpeedIn();
+}

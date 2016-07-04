@@ -1,0 +1,12 @@
+// Default Values
+$animateDefaultDuration: 1s;
+$animateDefaultDelay: 0;
+
+// Shared CSS Properties
+@mixin af-base($duration: $animateDefaultDuration, $delay:$animateDefaultDelay) {
+  -webkit-animation-duration: $duration;
+  animation-duration: $duration;
+  animation-delay: $delay;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+};

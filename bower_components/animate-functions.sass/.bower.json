@@ -1,0 +1,33 @@
+{
+  "name": "animate-functions.sass",
+  "homepage": "http://alvarezmauro.github.io/animate-functions.sass/",
+  "authors": [
+    "Mauro Alvarez <mauroalvarez86@gmail.com>"
+  ],
+  "description": "Collection of configurable CSS animations using SASS mixins",
+  "main": "animate-functions.sass",
+  "keywords": [
+    "CSS",
+    "SASS",
+    "Animations"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "0.0.2",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "1208c1cb4bcd787fbdbfd47268bf1e6718f43baa"
+  },
+  "_source": "https://github.com/alvarezmauro/animate-functions.sass.git",
+  "_target": "^0.0.2",
+  "_originalSource": "animate-functions.sass",
+  "_direct": true
+}
