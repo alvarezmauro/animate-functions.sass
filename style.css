@@ -2534,7 +2534,7 @@ input, select, button, textarea {
 ****************************************/
 html {
   font: 100%/1.5 'Titillium Web', sans-serif;
-  color: #3d464d;
+  color: #4d444c;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   width: 100%;
@@ -2593,7 +2593,7 @@ a {
   color: inherit;
   text-decoration: underline; }
   a:hover {
-    color: #207cca; }
+    color: #CF649A; }
 
 h3,
 p,
@@ -2625,15 +2625,15 @@ pre.prettyprint {
     outline: none; }
 
 .button {
-  border: 2px solid #207cca;
+  border: 2px solid #CF649A;
   line-height: 1.375;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-weight: bold;
-  color: #207cca;
+  color: #CF649A;
   cursor: pointer; }
   .button--primary {
-    background-color: #207cca;
+    background-color: #CF649A;
     color: #fff; }
 
 .input {
@@ -2660,14 +2660,14 @@ pre.prettyprint {
   -webkit-animation-name: af-bounceInUp;
   animation-name: af-bounceInUp; }
   .header__title {
-    color: #207cca;
+    color: #CF649A;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: -moz-linear-gradient(top, #1e5799 0%, #207cca 41%, #7db9e8 100%);
+    background-image: -moz-linear-gradient(top, #CF649A 0%, #cf9ab7 41%, #cfaabe 100%);
     /* FF3.6-15 */
-    background-image: -webkit-linear-gradient(top, #1e5799 0%, #207cca 41%, #7db9e8 100%);
+    background-image: -webkit-linear-gradient(top, #CF649A 0%, #CF9AB7 41%, #CFAABE 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background-image: linear-gradient(to bottom, #1e5799 0%, #207cca 41%, #7db9e8 100%);
+    background-image: linear-gradient(to bottom, #CF649A 0%, #CF9AB7 41%, #CFAABE 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     font-size: 2rem;
     margin: 2rem 0;
@@ -2681,7 +2681,7 @@ pre.prettyprint {
         font-size: 3.5rem; } }
   .header__subtitle {
     margin-bottom: .75rem;
-    color: #7b8993;
+    color: #cfbbc3;
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1;
