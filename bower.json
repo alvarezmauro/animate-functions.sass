@@ -1,14 +1,14 @@
 {
-  "name": "animate-functions.less",
-  "homepage": "http://alvarezmauro.github.io/animate-functions.less/",
+  "name": "animate-functions.sass",
+  "homepage": "http://alvarezmauro.github.io/animate-functions.sass/",
   "authors": [
     "Mauro Alvarez <mauroalvarez86@gmail.com>"
   ],
-  "description": "Collection of configurable CSS animations using LESS functions",
-  "main": "animate-functions.less",
+  "description": "Collection of configurable CSS animations using SASS mixins",
+  "main": "animate-functions.sass",
   "keywords": [
     "CSS",
-    "LESS",
+    "SASS",
     "Animations"
   ],
   "license": "MIT",
